@@ -1,0 +1,803 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 547168600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User open Salesforce application",
+            "match": {
+              "location": "Com.Steps.SalesforceloginStepDefinition.user_open_salesforce_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-29T07:26:59.729Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1601768000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Com.Steps.SalesforceloginStepDefinition.setUp1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 236191500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Com.Steps.SalesforceloginStepDefinition.setUp2()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Login error message to salesforce",
+        "description": "",
+        "id": "login-feature;login-error-message-to-salesforce",
+        "after": [
+          {
+            "result": {
+              "duration": 371393900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Com.Steps.SalesforceloginStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 116008100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user on \"Loginpage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Loginpage\"",
+                  "offset": 8
+                }
+              ],
+              "location": "Com.Steps.SalesforceloginStepDefinition.user_on(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 569493900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters username into text box",
+            "match": {
+              "location": "Com.Steps.SalesforceloginStepDefinition.user_enters_username_into_text_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 319043400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clear textbox password",
+            "match": {
+              "location": "Com.Steps.SalesforceloginStepDefinition.user_clear_textbox_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 565173500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click on login button",
+            "match": {
+              "location": "Com.Steps.SalesforceloginStepDefinition.click_on_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 178916900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verify \"Please enter your password.\" \"error\" displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Please enter your password.\"",
+                  "offset": 7
+                },
+                {
+                  "val": "\"error\"",
+                  "offset": 37
+                }
+              ],
+              "location": "Com.Steps.SalesforceloginStepDefinition.verify_displayed(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 627725100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User open Salesforce application",
+            "match": {
+              "location": "Com.Steps.SalesforceloginStepDefinition.user_open_salesforce_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-29T07:27:04.300Z",
+        "before": [
+          {
+            "result": {
+              "duration": 988536200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Com.Steps.SalesforceloginStepDefinition.setUp1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 162005300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Com.Steps.SalesforceloginStepDefinition.setUp2()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Login to salesforce",
+        "description": "",
+        "id": "login-feature;login-to-salesforce",
+        "after": [
+          {
+            "result": {
+              "duration": 338091300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Com.Steps.SalesforceloginStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 52857900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user on \"Loginpage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Loginpage\"",
+                  "offset": 8
+                }
+              ],
+              "location": "Com.Steps.SalesforceloginStepDefinition.user_on(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 431906500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters username into text box",
+            "match": {
+              "location": "Com.Steps.SalesforceloginStepDefinition.user_enters_username_into_text_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 428330500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enters paswd into text box",
+            "match": {
+              "location": "Com.Steps.SalesforceloginStepDefinition.user_enters_paswd_into_text_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2296317200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "click on login button",
+            "match": {
+              "location": "Com.Steps.SalesforceloginStepDefinition.click_on_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2745100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user on \"HomePage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"HomePage\"",
+                  "offset": 8
+                }
+              ],
+              "location": "Com.Steps.SalesforceloginStepDefinition.user_on(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2558235800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "verify \"Home\" \"ForceCom_font\" displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Home\"",
+                  "offset": 7
+                },
+                {
+                  "val": "\"ForceCom_font\"",
+                  "offset": 14
+                }
+              ],
+              "location": "Com.Steps.SalesforceloginStepDefinition.verify_displayed(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 518022300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User open Salesforce application",
+            "match": {
+              "location": "Com.Steps.SalesforceloginStepDefinition.user_open_salesforce_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-29T07:27:12.208Z",
+        "before": [
+          {
+            "result": {
+              "duration": 874552600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Com.Steps.SalesforceloginStepDefinition.setUp1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 125908500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Com.Steps.SalesforceloginStepDefinition.setUp2()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Check remember me",
+        "description": "",
+        "id": "login-feature;check-remember-me",
+        "after": [
+          {
+            "result": {
+              "duration": 377383500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Com.Steps.SalesforceloginStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 39391500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user on \"Loginpage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Loginpage\"",
+                  "offset": 8
+                }
+              ],
+              "location": "Com.Steps.SalesforceloginStepDefinition.user_on(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 600094100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enters username into text box",
+            "match": {
+              "location": "Com.Steps.SalesforceloginStepDefinition.user_enters_username_into_text_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 176094700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User enters paswd into text box",
+            "match": {
+              "location": "Com.Steps.SalesforceloginStepDefinition.user_enters_paswd_into_text_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 113573500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User clicks on \"Remember me check box\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Remember me check box\"",
+                  "offset": 15
+                }
+              ],
+              "location": "Com.Steps.SalesforceloginStepDefinition.user_clicks_on(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1494293000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "click on login button",
+            "match": {
+              "location": "Com.Steps.SalesforceloginStepDefinition.click_on_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997400,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user on \"HomePage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"HomePage\"",
+                  "offset": 8
+                }
+              ],
+              "location": "Com.Steps.SalesforceloginStepDefinition.user_on(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4648833800,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user menu",
+            "match": {
+              "location": "Com.Steps.SalesforceloginStepDefinition.user_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (e69a8000d180108acdd90b842fcb30ad)] -\u003e xpath: //*[@id\u003d\"userNav-menuItems\"]/a[5]] (tried for 30 second(s) with 500 milliseconds interval)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027SHWETAHOME\u0027, ip: \u0027192.168.1.23\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002718.0.1.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\\Users\\shwet\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59795}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e69a8000d180108acdd90b842fcb30ad\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\r\n\tat Com.Basepage.tests.BasePage.waitUntilVisible(BasePage.java:96)\r\n\tat Com.Homepage.tests.HomePage.logout(HomePage.java:42)\r\n\tat Com.Steps.SalesforceloginStepDefinition.user_logout(SalesforceloginStepDefinition.java:118)\r\n\tat ✽.user logout(file:///C:/Users/shwet/eclipse-workspace/CucumberFrameworkPOMAug2022/src/test/resources/salesforcelogin.feature:29)\r\n",
+              "duration": 32141557500,
+              "status": "failed"
+            },
+            "line": 29,
+            "name": "user logout",
+            "match": {
+              "location": "Com.Steps.SalesforceloginStepDefinition.user_logout()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "user on \"Loginpage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Loginpage\"",
+                  "offset": 8
+                }
+              ],
+              "location": "Com.Steps.SalesforceloginStepDefinition.user_on(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "verify \"mail2raju2001@gmail.com\" \"idcard-identity\" displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mail2raju2001@gmail.com\"",
+                  "offset": 7
+                },
+                {
+                  "val": "\"idcard-identity\"",
+                  "offset": 33
+                }
+              ],
+              "location": "Com.Steps.SalesforceloginStepDefinition.verify_displayed(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 428876600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User open Salesforce application",
+            "match": {
+              "location": "Com.Steps.SalesforceloginStepDefinition.user_open_salesforce_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-29T07:27:53.344Z",
+        "before": [
+          {
+            "result": {
+              "duration": 821041900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Com.Steps.SalesforceloginStepDefinition.setUp1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 225491800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Com.Steps.SalesforceloginStepDefinition.setUp2()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "Login wrong credentials",
+        "description": "",
+        "id": "login-feature;login-wrong-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 343628400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Com.Steps.SalesforceloginStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18850100,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user on \"Loginpage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Loginpage\"",
+                  "offset": 8
+                }
+              ],
+              "location": "Com.Steps.SalesforceloginStepDefinition.user_on(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 212864200,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User enters wrongusername into text box",
+            "match": {
+              "location": "Com.Steps.SalesforceloginStepDefinition.user_enters_wrongusername_into_text_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 673549400,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User enters wrongpaswd into text box",
+            "match": {
+              "location": "Com.Steps.SalesforceloginStepDefinition.user_enters_wrongpaswd_into_text_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11488745100,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "click on login button",
+            "match": {
+              "location": "Com.Steps.SalesforceloginStepDefinition.click_on_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 160229400,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "verify \"Please check your username and password. If you still can\u0027t log in, contact your Salesforce administrator.\" \"error\" displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Please check your username and password. If you still can\u0027t log in, contact your Salesforce administrator.\"",
+                  "offset": 7
+                },
+                {
+                  "val": "\"error\"",
+                  "offset": 116
+                }
+              ],
+              "location": "Com.Steps.SalesforceloginStepDefinition.verify_displayed(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 444968500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User open Salesforce application",
+            "match": {
+              "location": "Com.Steps.SalesforceloginStepDefinition.user_open_salesforce_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-29T07:28:07.733Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1252871100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Com.Steps.SalesforceloginStepDefinition.setUp1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 144218500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Com.Steps.SalesforceloginStepDefinition.setUp2()"
+            }
+          }
+        ],
+        "line": 41,
+        "name": "Forgot paasword",
+        "description": "",
+        "id": "login-feature;forgot-paasword",
+        "after": [
+          {
+            "result": {
+              "duration": 275596800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Com.Steps.SalesforceloginStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 24794100,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "user on \"Loginpage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Loginpage\"",
+                  "offset": 8
+                }
+              ],
+              "location": "Com.Steps.SalesforceloginStepDefinition.user_on(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 284260400,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "user clicks on forgot password",
+            "match": {
+              "location": "Com.Steps.SalesforceloginStepDefinition.user_clicks_on_forgot_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document\n  (Session info: chrome\u003d106.0.5249.119)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027SHWETAHOME\u0027, ip: \u0027192.168.1.23\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002718.0.1.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\\Users\\shwet\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59977}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 1e770e116874530875d53dc54c35ce12\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:326)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\r\n\tat Com.Basepage.tests.BasePage.waitUntilVisible(BasePage.java:96)\r\n\tat Com.Basepage.tests.BasePage.enterText(BasePage.java:63)\r\n\tat Com.loginpage.LoginPage.enterIntoUsername(LoginPage.java:25)\r\n\tat Com.Steps.SalesforceloginStepDefinition.user_enters_username_into_text_box(SalesforceloginStepDefinition.java:70)\r\n\tat ✽.User enters username into text box(file:///C:/Users/shwet/eclipse-workspace/CucumberFrameworkPOMAug2022/src/test/resources/salesforcelogin.feature:44)\r\n",
+              "duration": 45741100,
+              "status": "failed"
+            },
+            "line": 44,
+            "name": "User enters username into text box",
+            "match": {
+              "location": "Com.Steps.SalesforceloginStepDefinition.user_enters_username_into_text_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 725500,
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "click on continue",
+            "match": {
+              "location": "Com.Steps.SalesforceloginStepDefinition.click_on_continue()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "verify \"Check Your Email\" \"header\" displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Check Your Email\"",
+                  "offset": 7
+                },
+                {
+                  "val": "\"header\"",
+                  "offset": 26
+                }
+              ],
+              "location": "Com.Steps.SalesforceloginStepDefinition.verify_displayed(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "login feature",
+    "description": "checking the login feature of firebase app",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/salesforcelogin.feature",
+    "tags": []
+  }
+]
